@@ -15,4 +15,4 @@ accountEmail ="dau@jsf.com"
  because of issue in block scope and 
  */
 
-console.table([accountEmail,accountId,accountPassword.accountCity])
+console.table([accountEmail,accountId,accountPassword,accountCity])
