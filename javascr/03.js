@@ -23,4 +23,37 @@ let score='33'
     // console.log(typeof someNumber);
       console.log(typeof (StringNumber));
       //console.log(typeof StringNumber);
-     
+     let negvalue=-3;
+     //console.log(negvalue);
+      // console.log(2+2)
+      // console.log(2*2)
+      // console.log(2-2)
+      // console.log(2**2)
+      // console.log(2/2)
+      //  console.log(2%2)
+
+/*Toggle Line Comment:
+Windows/Linux: Ctrl + /
+ individually and works for both single and multiple lines.
+Block Comment (Multi-line Block):
+Windows/Linux: Alt + Shift +a */
+
+let str1="hello"
+let str2="kri"
+let str3=str1+str2
+console.log(str3);
+
+// console.log("1"+2);
+// console.log(1+"2");
+// console.log("1"+2+2);
+// console.log(1+2+"2");
+
+// console.log(3+4)*5%3);
+// console.log(+true);
+// console.log(+"");
+ let num1,num2,num3;
+ num1=num2=num3=2+2
+ let gameCounter = 100
+ gameCounter++;
+ console.log(gameCounter);
+
