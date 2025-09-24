@@ -1,6 +1,8 @@
 // primitive
 // 7 type: string , Number, Boolean ,null, undefined,symbol, BigInt
 
+const { useImperativeHandle } = require("react")
+
 const score =100
 const scoreValue=100.3
 const isLoggedIn=false
@@ -29,3 +31,24 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//stack(primitive), Heap(non primitive)
+let myname="krishandevojha "
+let anothername=myname
+anothername="krishan"
+ 
+
+console.log(myname);
+console.log(anothername);
+
+let userOne={
+    email:"krishan@ggorm.com"
+    upi:"user@uld"
+    
+}
+let userTwo=userOne
+userTwo.email="krishan@gggmkd.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
