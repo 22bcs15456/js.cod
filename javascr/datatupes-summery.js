@@ -47,7 +47,7 @@ let userOne={
     upi:"user@uld"
     
 }
-let userTwo=userOne
+let userTwo = userOne 
 userTwo.email="krishan@gggmkd.com"
 
 console.log(userOne.email);
