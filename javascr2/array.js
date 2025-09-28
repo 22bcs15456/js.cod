@@ -12,6 +12,12 @@ const myarray1 = [0,1,2,3,4,5,6,7,8];
 const myarray2 = [0,1,2,3,4,5,6,7,8];
 console.log(myarray1+","+myarray2.toString())
 const newArray = myarray1.join();
-console.log(newArray);
+console.log(newarray);
 console.log(myarray1);
-const myarray=new Array(9,8,7,6,5,4,3);
+const myarray4=new array(9,8,7,6,5,4,3);
+console.log(typeof myarray4);
+
+
+//slice,splice
+console.log(myarray4.slice(1,5));
+myarray4.splice(1,2,3,4,5,6,7);
