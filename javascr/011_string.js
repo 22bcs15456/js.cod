@@ -33,3 +33,16 @@ console.log(url.replace('%20', '-'))
 console.log(url.includes('sundar'))
 
 console.log(gameName.split('-'));
+/*const a = "a";
+const b = "b";
+if (a < b) {
+  // true
+  console.log(`${a} is less than ${b}`);
+} else if (a > b) {
+  console.log(`${a} is greater than ${b}`);
+} else {
+  console.log(`${a} and ${b} are equal.`);
+}*/
+console.log(String.fromCharCode(104));
+console.log(name.length);
+
