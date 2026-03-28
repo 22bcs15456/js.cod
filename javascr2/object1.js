@@ -5,6 +5,8 @@ const mysym=symbol("key4")
 const ususer={
 name:"krishan",
 age:23,
+  email:kri@gmail.com,
+  
 
 
 }
